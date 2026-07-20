@@ -2,12 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Book;
+
 class HelloController extends Controller
 {
-    public function index()
+    public function list()
     {
-
-        return 'こんにちは、世界！';
-
+        $data = [
+            'books' => Book::all(),
+        ];
+        return view('hello.list', $data);
     }
 }
