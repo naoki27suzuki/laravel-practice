@@ -13,4 +13,9 @@ class HelloController extends Controller
         ];
         return view('hello.list', $data);
     }
+
+    public function conf()
+    {
+        return config('myapp.API_KEY') . '/' . config('myapp.DEBUG');
+    }
 }

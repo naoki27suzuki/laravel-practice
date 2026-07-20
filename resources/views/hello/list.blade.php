@@ -9,8 +9,12 @@
 <table class="table">
 <thead>
 <tr>
-    <tr>ISBNコード</tr><tr>書名</tr><tr>価格</tr>
-    <tr>出版社</tr><tr>刊行日</tr><tr>サンプル</tr>
+    <th>ISBNコード</th>
+    <th>書名</th>
+    <th>価格</th>
+    <th>出版社</th>
+    <th>刊行日</th>
+    <th>サンプル</th>
 </tr>
 <thead>
 <tbody>
